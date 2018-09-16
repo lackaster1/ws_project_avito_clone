@@ -1,0 +1,34 @@
+html{
+  flex-direction: column;
+
+}
+body{
+  margin: 0;
+  background-color: #fff;
+  font: 13px/1.5 Arial,'Helvetica Neue',Helvetica;
+  display: flex;
+
+}
+.firstLine{
+  position: relative;
+
+}
+.header_first{
+  display: -webkit-box;
+  height: 44px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+
+
+}
+ul.textLinksLeftBlock li{
+  list-style: none;
+  display: inline;
+  padding:0 8px;
+
+}
+a{
+  text-decoration: none;
+}
+
