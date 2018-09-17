@@ -1,17 +1,14 @@
 html{
   flex-direction: column;
-
 }
 body{
   margin: 0;
   background-color: #fff;
   font: 13px/1.5 Arial,'Helvetica Neue',Helvetica;
   display: flex;
-
 }
 .firstLine{
   position: relative;
-
 }
 .header_first{
   display: flex;
@@ -19,15 +16,12 @@ body{
   background-color: #f7f7f7;
   border-bottom: 1px solid #d8d8d8;
   width: 100%;
-
-
 }
 ul.textLinksLeftBlock li{
   list-style: none;
   display: inline;
   padding:0 8px;
   flex-grow: 1;
-
 }
 .common-links-settings{
   text-decoration: none;
@@ -39,13 +33,11 @@ ul.textLinksLeftBlock li{
 }
 .header_link_button_1{
   color: #a1a1a1;
-
 }
 .enter-and-registration{
   color: #0091d9;
   padding:0 8px;
   margin: 7px;
-
 }
 .header_link_button_1:hover{
   color: #ff6163;
@@ -59,6 +51,9 @@ ul.textLinksLeftBlock li{
   vertical-align: middle;
   border: 1px solid transparent;
   border-radius: 3px;
+}
+.button_create_item:hover{
+  background: #26b7ff;
 }
 .right-area{
   display: flex;
