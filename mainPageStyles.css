@@ -9,6 +9,9 @@ body{
 }
 .firstLine{
   position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
 }
 .header_first{
   display: flex;
@@ -23,6 +26,7 @@ ul.textLinksLeftBlock li{
   padding:0 8px;
   flex-grow: 1;
 }
+
 .common-links-settings{
   text-decoration: none;
   color: #a1a1a1;
@@ -58,5 +62,15 @@ ul.textLinksLeftBlock li{
 .right-area{
   display: flex;
   align-items: center;
+
+
 }
+.img-link-heart-inner{
+  display: flex;
+  margin-left: 15px;
+}
+.left-links-area{
+  flex-grow: 1;
+}
+
 

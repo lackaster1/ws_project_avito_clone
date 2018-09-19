@@ -5,5 +5,4 @@ $(".button_create_item").click(function () {
     }
 });
 
-$(".enter-and-registration").click(alert("ffff"));
 
