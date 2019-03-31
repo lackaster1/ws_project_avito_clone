@@ -4,5 +4,3 @@ $(".button_create_item").click(function () {
         window.location.href="http://avito.ru/additem"
     }
 });
-
-

@@ -30,6 +30,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+
 }
 .main-field{
   margin: 0 auto;
@@ -77,4 +78,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+  float: left;
+}
+.right-header-area{
+  display: flex;
+  float: right;
 }
