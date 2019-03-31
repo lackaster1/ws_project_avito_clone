@@ -1,0 +1,67 @@
+html{
+  flex-direction: column;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font: 15px/1.5 Arial,'Helvetica Neue',Helvetica;
+}
+.main-wrapper{
+  height: auto !important;
+  min-height: 100%;
+}
+.firstLine{
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+}
+.header_first{
+  display: flex;
+  height: 42px;
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+}
+.main-field{
+  margin: 0 auto;
+  width: 960px;
+}
+.text-wrapper{
+  display: block;
+  text-align: center;
+
+}
+.text-press-the-pic{
+  text-align: center;
+  padding: 4px 8px;
+}
+.bird-head-sector-center{
+
+}
+.pic-element{
+  height: 290px;
+  width: 290px;
+  cursor: pointer;
+}
+.images-of-shit{
+  display: table;
+}
+.image{
+  margin: 20px;
+}
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+}
+.direct-content-container{
+  width: 960px;
+  height: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.image-container{
+  padding: 8px;
+}

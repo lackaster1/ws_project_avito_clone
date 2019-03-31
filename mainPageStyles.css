@@ -62,8 +62,6 @@ ul.textLinksLeftBlock li{
 .right-area{
   display: flex;
   align-items: center;
-
-
 }
 .img-link-heart-inner{
   display: flex;
@@ -72,5 +70,4 @@ ul.textLinksLeftBlock li{
 .left-links-area{
   flex-grow: 1;
 }
-
 
