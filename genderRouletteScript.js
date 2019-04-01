@@ -4,15 +4,3 @@ $(".hover-img-wrapper").click(function () {
         window.location.href="http://avito.ru/additem"
     }
 });
-
-$(".gender-roulette").click(function () {
-
-
-})
-
-var request = new XMLHttpRequest();
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
-request.onload = function () {
-};
-
-request.send();
