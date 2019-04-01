@@ -28,7 +28,6 @@ body{
   margin: 0 auto;
   width: 960px;
   display: flex;
-  flex-wrap: wrap;
   align-content: stretch;
 
 }
@@ -43,7 +42,6 @@ body{
 }
 .text-press-the-pic{
   text-align: center;
-  padding: 4px 8px;
 }
 .pic-element{
   height: 290px;
@@ -79,8 +77,13 @@ body{
   flex-wrap: wrap;
   align-content: stretch;
   float: left;
+  margin-right: auto;
 }
 .right-header-area{
   display: flex;
   float: right;
+}
+.logo-img{
+  margin-top: 7px;
+  margin-right: 14px;
 }
