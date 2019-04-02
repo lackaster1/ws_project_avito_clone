@@ -29,7 +29,6 @@ body{
   width: 960px;
   display: flex;
   align-content: stretch;
-
 }
 .main-field{
   margin: 0 auto;
@@ -64,7 +63,6 @@ body{
 }
 .direct-content-container{
   width: 960px;
-  height: 960px;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
@@ -86,4 +84,14 @@ body{
 .logo-img{
   margin-top: 7px;
   margin-right: 14px;
+  cursor: pointer;
+}
+.footer-main-container{
+  display: flex;
+  height: 42px;
+  background-color: #F1F1F1;
+  border-top: 1px solid #d8d8d8;
+  width: 100%;
+  margin-top: 15px;
+
 }
