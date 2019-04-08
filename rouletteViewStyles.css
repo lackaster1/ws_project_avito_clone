@@ -1,0 +1,29 @@
+html {
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font: 15px/1.5 Arial, 'Helvetica Neue', Helvetica;
+}
+
+.button-container {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  align-content: stretch;
+  height: -webkit-fill-available;
+}
+
+.start-roulette-button {
+  display: flex;
+  align-content: stretch;
+  cursor: pointer;
+  color: #ff6163;
+  margin: auto;
+}
+.start-roulette-button:hover{
+  color: black;
+}
