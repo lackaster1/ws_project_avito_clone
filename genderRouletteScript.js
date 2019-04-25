@@ -42,17 +42,16 @@ $(document).ready(function () {
   var start = $('.start-roulette-button');
   var genders = [gen00(), gen01(), gen02(), gen03(), gen04(), gen05(), gen06(), gen07(), gen08()];
   start.click(function () {
-    /*    document.body.onload = addElement;
 
-        function addElement () {
           var newDiv = document.createElement("div");
           var newContent = document.createTextNode(genders[randomInteger(0,8)]);
+          var randGenderName = newContent.getName;
+
           newDiv.appendChild(newContent);
 
-          var currentDiv = document.getElementsByClassName("simple-container");
-          document.body.insertBefore(newDiv,currentDiv);
-        }*/
-    console.log(genders[randomInteger(0, 8)]);
+          document.body.appendChild(newDiv);
+
+    //console.log(genders[randomInteger(0, 8)]);
 
   });
 
